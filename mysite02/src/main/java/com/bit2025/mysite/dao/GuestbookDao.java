@@ -54,7 +54,7 @@ public class GuestbookDao {
 			
 			count = pstmt.executeUpdate();
 		} catch (SQLException e) {
-			System.out.println("error:" + e);
+			System.out.println("errorro:" + e);
 		} 
 		
 		return count;		
